@@ -1,8 +1,8 @@
 @Library('jenkins-shared-library') _
 
-def configMap: [
-    project = "roboshop"
-    component = "cart"
+def configMap = [
+    project: "roboshop"
+    component: "cart"
 ]
 
 echo "Going to execute Jenkins shared library"
